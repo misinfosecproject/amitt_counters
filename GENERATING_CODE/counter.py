@@ -127,7 +127,7 @@ class Counter:
                 html += '* {}: {} (needs {})\n'.format(c[1]['ID'], c[1]['Title'],
                                                     c[1]['Resources needed'])
         
-        datafile = '../tactics/{}_counter.md'.format(tname)
+        datafile = '../tactics/{}_counters.md'.format(tid)
         print('Writing {}'.format(datafile))
         with open(datafile, 'w') as f:
             f.write(html)
