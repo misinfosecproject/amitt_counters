@@ -68,10 +68,10 @@ class Counter:
 
         html = '''# AMITT Courses of Action matrix:
 
-    <table border="1">
-    <tr>
-    <td> </td>
-    '''
+<table border="1">
+<tr>
+<td> </td>
+'''
         #Table heading = Tactic names
         for col in coacounts.columns.get_level_values(1):
             tid = self.create_tactic_file(col)

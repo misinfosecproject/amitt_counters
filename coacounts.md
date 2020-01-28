@@ -1,9 +1,9 @@
 # AMITT Courses of Action matrix:
 
-    <table border="1">
-    <tr>
-    <td> </td>
-    <td><a href="tactics/ALcounters.md">ALL</a></td>
+<table border="1">
+<tr>
+<td> </td>
+<td><a href="tactics/ALcounters.md">ALL</a></td>
 <td><a href="tactics/TA01counters.md">TA01 Strategic Planning</a></td>
 <td><a href="tactics/TA02counters.md">TA02 Objective Planning</a></td>
 <td><a href="tactics/TA03counters.md">TA03 Develop People</a></td>
