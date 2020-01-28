@@ -1,14 +1,126 @@
 # Tactic TA09 Exposure counters
 
+## by action
 
-## D2 Deny
+
+### D2 Deny
 * C00122: Content moderation. Censorship? (needs platform_admin)
 
-## D3 Disrupt
+### D3 Disrupt
 * C00123: Bot control (needs nan)
 * C00124: Don't feed the trolls (needs nan)
 * C00125: Prepare the population with pre-announcements (needs nan)
 * C00126: Social media amber alert (needs nan)
 
-## D6 Destroy
+### D6 Destroy
+* C00127: Need way for end user to report operations (needs nan)
+
+## by technique
+
+
+### TA09
+* C00011: Media literacy. Games to identify fake news (needs educators,gamesdesigners,developers)
+* C00012: Platform regulation (needs government:policymakers)
+* C00018: Promote constructive communication by shaming division-enablers (needs nan)
+* C00019: Promote playbooks to call out division-enablers (needs nan)
+* C00028: Blockchain audit log and validation with collaborative decryption to post comments (needs nan)
+* C00085: Demuting content (needs nan)
+* C00086: Distract from noise with addictive content (needs nan)
+* C00124: Don't feed the trolls (needs nan)
+* C00133: Deplatform Account* (needs platform_admin)
+* C00135: Deplatform message groups and/or message boards (needs platform_admin)
+* C00136: Microtarget most likely targets then send them countermessages (needs nan)
+* C00140: "Bomb" link shorteners with lots of calls (needs nan)
+* C00141: "Hey this story is old" popup when messaging with old URL (needs platform_algorithms)
+* C00142: "This has been disproved - do you want to forward it" (needs platform_algorithms)
+
+### 85    T0047 - Muzzle social media as a political force
+Name: key, dtype: object
+* C00027: Create culture of civility (needs nan)
+* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
+* C00060: Enhanced legal enforcement against for-profit follower/engagement factories (needs government:policymakers)
+* C00064: Network anomaly detection (needs data_scientist)
+* C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
+* C00093: Establish tailored code of conduct for individuals with many followers (needs nan)
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)
+
+### 86    T0048 - Cow online opinion leaders
+Name: key, dtype: object
+* C00027: Create culture of civility (needs nan)
+* C00048: Name and Shame (needs nan)
+* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
+* C00093: Establish tailored code of conduct for individuals with many followers (needs nan)
+* C00115: Expose actor and intentions (needs nan)
+
+### 87    T0049 - Flooding
+Name: key, dtype: object
+* C00044: Keep people from posting to social media immediately (needs nan)
+* C00064: Network anomaly detection (needs data_scientist)
+* C00123: Bot control (needs nan)
+* C00127: Need way for end user to report operations (needs nan)
+* C00131: Seize and analyse botnet servers (needs server_admin)
+
+### 88    T0050 - Cheerleading domestic social media ops
+Name: key, dtype: object
+* C00127: Need way for end user to report operations (needs nan)
+
+### 89    T0051 - Fabricate social media comment
+Name: key, dtype: object
+* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
+* C00123: Bot control (needs nan)
+
+### 90    T0052 - Tertiary sites amplify news
+Name: key, dtype: object
+* C00070: Block access to platform. DDOS an attacker. (needs nan)
+* C00115: Expose actor and intentions (needs nan)
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)
+* C00123: Bot control (needs nan)
+* C00126: Social media amber alert (needs nan)
+* C00127: Need way for end user to report operations (needs nan)
+
+### 91    T0053 - Twitter trolls amplify and manipulate
+Name: key, dtype: object
+* C00027: Create culture of civility (needs nan)
+* C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
+* C00093: Establish tailored code of conduct for individuals with many followers (needs nan)
+* C00115: Expose actor and intentions (needs nan)
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)
+* C00123: Bot control (needs nan)
+* C00126: Social media amber alert (needs nan)
+* C00127: Need way for end user to report operations (needs nan)
+* C00144: Buy out troll farm employees / offer them jobs (needs nan)
+
+### 92    T0054 - Twitter bots amplify
+Name: key, dtype: object
+* C00044: Keep people from posting to social media immediately (needs nan)
+* C00064: Network anomaly detection (needs data_scientist)
+* C00115: Expose actor and intentions (needs nan)
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)
+* C00123: Bot control (needs nan)
+* C00126: Social media amber alert (needs nan)
+* C00127: Need way for end user to report operations (needs nan)
+* C00131: Seize and analyse botnet servers (needs server_admin)
+
+### 93    T0055 - Use hashtag
+Name: key, dtype: object
+* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
+* C00064: Network anomaly detection (needs data_scientist)
+* C00066: Co-opt a hashtag and drown it out (hijack it back) (needs nan)
+* C00070: Block access to platform. DDOS an attacker. (needs nan)
+* C00115: Expose actor and intentions (needs nan)
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)
+* C00123: Bot control (needs nan)
+* C00126: Social media amber alert (needs nan)
+* C00127: Need way for end user to report operations (needs nan)
+
+### 94    T0056 - Dedicated channels disseminate informa...
+Name: key, dtype: object
+* C00036: Infiltrate the in-group to discredit leaders (divide) (needs nan)
+* C00042: Address truth contained in narratives (needs nan)
+* C00071: Block source of pollution (needs nan)
+* C00073: Educate on how to handle info pollution. Push out targeted education on why it's pollution (needs nan)
+* C00115: Expose actor and intentions (needs nan)
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)
+* C00123: Bot control (needs nan)
+* C00126: Social media amber alert (needs nan)
 * C00127: Need way for end user to report operations (needs nan)
