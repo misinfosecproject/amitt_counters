@@ -18,36 +18,31 @@
 ### D5 Deceive
 * C00103: Create a bot that engages / distract trolls (needs developers)
 
-### D6 Destroy
-* C00104: Hack the polls/ content yourself (needs civil_society)
-
 ## by technique
 
 
 ### TA07
+* C00078: Change Search Algorithms for Disinformation Content. More specifically, change image search algorithms for hate groups and extremists (needs nan)
+* C00044: Keep people from posting to social media immediately (needs platform_algorithms)
+* C00133: Deplatform Account* (needs platform_admin)
+* C00135: Deplatform message groups and/or message boards (needs platform_admin)
+* C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
 * C00012: Platform regulation (needs government:policymakers)
 * C00016: Social media as a privilege not right (needs nan)
 * C00028: Blockchain audit log and validation with collaborative decryption to post comments (needs nan)
-* C00044: Keep people from posting to social media immediately (needs nan)
 * C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
 * C00060: Enhanced legal enforcement against for-profit follower/engagement factories (needs government:policymakers)
-* C00078: Change Search Algorithms for Disinformation Content. More specifically, change image search algorithms for hate groups and extremists (needs nan)
 * C00085: Demuting content (needs nan)
-* C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
 * C00093: Establish tailored code of conduct for individuals with many followers (needs nan)
-* C00133: Deplatform Account* (needs platform_admin)
-* C00135: Deplatform message groups and/or message boards (needs platform_admin)
 
 ### 67    T0029 - Manipulate online polls
 Name: key, dtype: object
-* C00009: Educate high profile influencers on best practices (needs influencers,educators)
-* C00064: Network anomaly detection (needs data_scientist)
+* C00136: Microtarget most likely targets then send them countermessages (needs nan)
+* C00103: Create a bot that engages / distract trolls (needs developers)
 * C00097: Require use of verified identities to contribute to poll or comment (needs platform_algorithms)
 * C00101: Create participant friction (needs platform_algorithms)
 * C00102: Make repeat voting harder (needs platform_admin)
-* C00103: Create a bot that engages / distract trolls (needs developers)
-* C00104: Hack the polls/ content yourself (needs civil_society)
-* C00136: Microtarget most likely targets then send them countermessages (needs nan)
+* C00009: Educate high profile influencers on best practices (needs influencers,educators)
 
 ### 68    T0030 - Backstop personas
 Name: key, dtype: object
