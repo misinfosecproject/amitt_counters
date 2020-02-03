@@ -61,7 +61,7 @@ class Counter:
     
     # Print list of counters for each square of the COA matrix
     # Write HTML version of framework diagram to markdown file
-    def write_coacounts_markdown(self, outfile = '../coacounts.md'):
+    def write_coacounts_markdown(self, outfile = '../tactic_counts.md'):
 
         coacounts = pd.pivot_table(self.dfcounters[['Tactic', 'Response',
                                                     'ID']], index='Response', columns='Tactic', aggfunc=len, fill_value=0)
