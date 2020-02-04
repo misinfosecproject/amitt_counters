@@ -169,10 +169,10 @@ class Counter:
 
         html = '''# AMITT {} courses of action
 
-        <table border="1">
-        <tr>
-        <td> </td>
-        '''.format(rowtype)
+<table border="1">
+<tr>
+<td> </td>
+    '''.format(rowtype)
 
         # Table heading row
         for col in mtcounts.columns.get_level_values(1)[:-1]:
