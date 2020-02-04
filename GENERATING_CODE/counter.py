@@ -61,7 +61,7 @@ class Counter:
     
     # Print list of counters for each square of the COA matrix
     # Write HTML version of framework diagram to markdown file
-    def write_coacounts_markdown(self, outfile = '../tactic_counts.md'):
+    def write_tactics_markdown(self, outfile = '../tactic_counts.md'):
 
         coacounts = pd.pivot_table(self.dfcounters[['Tactic', 'Response',
                                                     'ID']], index='Response', columns='Tactic', aggfunc=len, fill_value=0)
@@ -134,10 +134,81 @@ class Counter:
             f.close()
         return(tid)
 
+
+    def create_object_file(self, index, rowtype, datadir):
+        print('{}'.format(index))
+
+        oid = index
+        html = '''# {} counters: {}\n\n'''.format(rowtype, index)
+
+        html += '## by action\n\n'
+        for resp, clist in self.dfcounters[self.dfcounters[rowtype] == index].groupby('Response'):
+            html += '\n### {}\n'.format(resp)
+
+            for c in clist.iterrows():
+                html += '* {}: {} (needs {})\n'.format(c[1]['ID'], c[1]['Title'],
+                                                    c[1]['Resources needed'])
+
+        datafile = '{}/{}counters.md'.format(datadir, oid)
+        print('Writing {}'.format(datafile))
+        with open(datafile, 'w') as f:
+            f.write(html)
+            f.close()
+        return(oid)
+
+
+    def write_metacounts_markdown(self, outfile = '../metatag_counts.md'):
+
+        coltype = 'Response'
+        rowtype = 'metatechnique'
+        rowname = 'metatag'
+        mtcounts = pd.pivot_table(self.dfcounters[[coltype, rowtype,'ID']], 
+                                  index=rowtype, columns=coltype, aggfunc=len, 
+                                  fill_value=0) 
+        mtcounts['TOTALS'] = mtcounts.sum(axis=1)
+
+        html = '''# AMITT {} courses of action
+
+        <table border="1">
+        <tr>
+        <td> </td>
+        '''.format(rowtype)
+
+        # Table heading row
+        for col in mtcounts.columns.get_level_values(1)[:-1]:
+            html += '<td>{}</td>\n'.format(col)
+        html += '<td>TOTALS</td></tr><tr>\n'
+
+        # Data rows
+        datadir = '../{}'.format(rowname)
+        if not os.path.exists(datadir):
+            os.makedirs(datadir)
+        for index, counts in mtcounts.iterrows(): 
+            tid = self.create_object_file(index, rowtype, datadir)
+            html += '<td><a href="{0}/{1}counters.md">{2}</a></td>\n'.format(
+                rowname, tid, index)
+            for val in counts.values:
+                html += '<td>{}</td>\n'.format(val)
+            html += '</tr>\n<tr>\n'
+
+        # Column sums
+        html += '<td>TOTALS</td>\n'
+        for val in mtcounts.sum().values:
+                html += '<td>{}</td>\n'.format(val)
+        html += '</tr>\n</table>\n'           
+
+        with open(outfile, 'w') as f:
+            f.write(html)
+            print('updated {}'.format(outfile))
+
+        return
+
+
  
 def main():
     counter = Counter()
-    counter.write_coacounts_markdown()
+    counter.write_tactics_markdown()
+    counter.write_metacounts_markdown()
 
 
 if __name__ == "__main__":
