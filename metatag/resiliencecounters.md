@@ -14,6 +14,7 @@
 
 ### D3 Disrupt
 * C00061: Innoculating at language (needs nan)
+* C00125: Prepare the population with pre-announcements (needs nan)
 
 ### D4 Degrade
 * C00022: Innoculate. Positive campaign to promote feeling of safety - to counter ability and fear based attacks (needs nan)

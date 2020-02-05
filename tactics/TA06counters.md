@@ -44,8 +44,8 @@
 
 ### TA06
 * C00053: Delete old accounts / Remove unused social media accounts (needs platform_admin,platform_admin:socialmedia,public:account_owners)
-* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00008: Create shared fact-checking database (needs factcheckers)
+* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00085: Demuting content (needs nan)
 
 ### 57    T0019 - Generate information pollution
@@ -91,8 +91,8 @@ Name: key, dtype: object
 
 ### 63    T0025 - Leak altered documents
 Name: key, dtype: object
-* C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
 * C00012: Platform regulation (needs government:policymakers)
+* C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
 * C00036: Infiltrate the in-group to discredit leaders (divide) (needs nan)
 
 ### 64    T0026 - Create fake research

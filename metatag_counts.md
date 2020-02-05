@@ -86,8 +86,18 @@
 <td>0</td>
 <td>0</td>
 <td>0</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td><a href="metatag/reduce resourcescounters.md">reduce resources</a></td>
 <td>0</td>
-<td>6</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>3</td>
 </tr>
 <tr>
 <td><a href="metatag/removalcounters.md">removal</a></td>
@@ -103,11 +113,11 @@
 <td><a href="metatag/resiliencecounters.md">resilience</a></td>
 <td>0</td>
 <td>7</td>
-<td>1</td>
+<td>2</td>
 <td>4</td>
 <td>0</td>
 <td>1</td>
-<td>13</td>
+<td>14</td>
 </tr>
 <tr>
 <td><a href="metatag/scoringcounters.md">scoring</a></td>
@@ -132,11 +142,11 @@
 <tr>
 <td>TOTALS</td>
 <td>4</td>
-<td>33</td>
-<td>26</td>
-<td>17</td>
+<td>34</td>
+<td>28</td>
+<td>18</td>
 <td>3</td>
-<td>6</td>
-<td>89</td>
+<td>7</td>
+<td>94</td>
 </tr>
 </table>

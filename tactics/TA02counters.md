@@ -27,6 +27,6 @@ Name: key, dtype: object
 * C00088: Poison pill recasting of message (needs nan)
 * C00023: Promote civility as an identity that people will defend (needs nan)
 * C00024: Promote constructive narratives i.e. not polarising.  Pro-life, pro-choice, or pro-USA? (needs nan)
-* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00008: Create shared fact-checking database (needs factcheckers)
+* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00025: Promote identity neutral narratives (needs nan)

@@ -4,5 +4,5 @@
 
 
 ### D2 Deny
-* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00008: Create shared fact-checking database (needs factcheckers)
+* C00014: Real-time updates to fact-checking database (needs factcheckers)

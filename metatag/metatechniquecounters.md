@@ -12,3 +12,6 @@
 ### D2 Deny
 * C00012: Platform regulation (needs government:policymakers)
 * C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
+
+### D7 Deter
+* C00120: Open dialogue about design of platforms to produce different outcomes (needs nan)

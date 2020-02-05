@@ -5,13 +5,13 @@
 
 ### D2 Deny
 * C00056: Get off social media (needs nan)
+* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
 * C00049: Influence literacy training (needs educators)
 * C00050: Anti-elicitation training (needs educators)
 * C00051: Phishing prevention education etc (needs educators)
 * C00057: Privacy standards (needs nan)
-* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
-* C00058: Report as violator (counters crowdfunding) (needs nan)
 * C00059: Verification of project before posting (counters funding campaigns) (needs nan)
+* C00058: Report as violator (counters crowdfunding) (needs nan)
 
 ### D3 Disrupt
 * C00061: Innoculating at language (needs nan)
@@ -54,21 +54,21 @@ Name: key, dtype: object
 
 ### 51    T0013 - Create fake websites
 Name: key, dtype: object
-* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00008: Create shared fact-checking database (needs factcheckers)
+* C00014: Real-time updates to fact-checking database (needs factcheckers)
 
 ### 52    T0014 - Create funding campaigns
 Name: key, dtype: object
+* C00012: Platform regulation (needs government:policymakers)
 * C00070: Block access to platform. DDOS an attacker. (needs nan)
 * C00133: Deplatform Account* (needs platform_admin)
-* C00014: Real-time updates to fact-checking database (needs factcheckers)
 * C00008: Create shared fact-checking database (needs factcheckers)
-* C00012: Platform regulation (needs government:policymakers)
+* C00014: Real-time updates to fact-checking database (needs factcheckers)
 
 ### 53    T0015 - Create hashtag
 Name: key, dtype: object
 * C00145: Pollute the data voids with wholesome content (Kittens! Babyshark!) (needs nan)
 * C00066: Co-opt a hashtag and drown it out (hijack it back) (needs nan)
 * C00088: Poison pill recasting of message (needs nan)
-* C00070: Block access to platform. DDOS an attacker. (needs nan)
 * C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
+* C00070: Block access to platform. DDOS an attacker. (needs nan)

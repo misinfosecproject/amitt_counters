@@ -9,6 +9,7 @@
 <td><a href="tactics/TA03counters.md">TA03 Develop People</a></td>
 <td><a href="tactics/TA04counters.md">TA04 Develop Networks</a></td>
 <td><a href="tactics/TA05counters.md">TA05 Microtargeting</a></td>
+<td><a href="tactics/TA06counters.md">TA06 - Develop Content</a></td>
 <td><a href="tactics/TA06counters.md">TA06 Develop Content</a></td>
 <td><a href="tactics/TA07counters.md">TA07 Channel Selection</a></td>
 <td><a href="tactics/TA08counters.md">TA08 Pump Priming</a></td>
@@ -31,6 +32,24 @@
 <td>0</td>
 <td>0</td>
 <td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>D2 - Deny</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
 </tr>
 <tr>
 <td>D2 Deny</td>
@@ -40,6 +59,7 @@
 <td>6</td>
 <td>8</td>
 <td>1</td>
+<td>0</td>
 <td>7</td>
 <td>3</td>
 <td>5</td>
@@ -56,6 +76,7 @@
 <td>4</td>
 <td>2</td>
 <td>5</td>
+<td>0</td>
 <td>7</td>
 <td>1</td>
 <td>0</td>
@@ -72,6 +93,7 @@
 <td>1</td>
 <td>3</td>
 <td>0</td>
+<td>0</td>
 <td>5</td>
 <td>2</td>
 <td>2</td>
@@ -86,6 +108,7 @@
 <td>0</td>
 <td>0</td>
 <td>1</td>
+<td>0</td>
 <td>0</td>
 <td>0</td>
 <td>2</td>
@@ -111,6 +134,7 @@
 <td>0</td>
 <td>0</td>
 <td>0</td>
+<td>0</td>
 </tr>
 <tr>
 <td>D7 Deter</td>
@@ -118,6 +142,7 @@
 <td>1</td>
 <td>0</td>
 <td>1</td>
+<td>0</td>
 <td>0</td>
 <td>0</td>
 <td>5</td>
@@ -136,6 +161,7 @@
 <td>13</td>
 <td>14</td>
 <td>6</td>
+<td>1</td>
 <td>26</td>
 <td>7</td>
 <td>10</td>
