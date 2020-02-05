@@ -136,7 +136,6 @@ class Counter:
 
 
     def create_object_file(self, index, rowtype, datadir):
-        print('{}'.format(index))
 
         oid = index
         html = '''# {} counters: {}\n\n'''.format(rowtype, index)
