@@ -11,3 +11,6 @@
 * C00145: Pollute the data voids with wholesome content (Kittens! Babyshark!) (needs nan)
 * C00148: Add random links to network graphs (needs platform_algorithms)
 * C00149: Poison the monitoring & evaluation data (needs nan)
+
+### D5 Deceive
+* C00047: Coordinated inauthentics (needs nan)

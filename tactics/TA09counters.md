@@ -1,16 +1,10 @@
-# Tactic TA09 Exposure counters
+# Tactic TA09 exposure counters
 
 ## by action
 
 
-### D2 Deny
-* C00122: Content moderation. Censorship? (needs platform_admin)
-
-### D3 Disrupt
-* C00126: Social media amber alert (needs nan)
-* C00125: Prepare the population with pre-announcements (needs nan)
-* C00123: Bot control (needs nan)
-* C00124: Don't feed the trolls (needs nan)
+### D3 disrupt
+* C00200: Respected figure (influencer) disavows misinfo (needs influencers)
 
 ## by technique
 
@@ -29,7 +23,7 @@
 * C00028: Blockchain audit log and validation with collaborative decryption to post comments (needs nan)
 * C00085: Demuting content (needs nan)
 * C00086: Distract from noise with addictive content (needs nan)
-* C00124: Don't feed the trolls (needs nan)
+* C00124: Don't feed the trolls (needs public,media)
 
 ### 85    T0047 - Muzzle social media as a political force
 Name: key, dtype: object

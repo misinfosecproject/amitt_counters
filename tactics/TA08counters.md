@@ -7,8 +7,17 @@
 * C00113: Debunk and defuse a fake expert / credentials. Attack audience quality of fake expert (needs nan)
 * C00115: Expose actor and intentions (needs nan)
 * C00116: Provide proof of involvement (needs nan)
+* C00154: Ask media not to report false information (needs media)
+* C00204: Strengthen local media (needs media)
 * C00112: "Prove they are not an op!" (needs nan)
-* C00114: Don't engage with payloads (needs nan)
+* C00114: Don't engage with payloads (needs public)
+
+### D3 Disrupt
+* C00188: Newsroom/Journalist training to counter SEO influence (needs media,educators)
+* C00193: promotion of a “higher standard of journalism” (needs media,educators)
+
+### D3 disrupt
+* C00203: Stop offering press credentials to propaganda outlets (needs government)
 
 ### D4 Degrade
 * C00117: Downgrade de-amplify label promote counter to disinformation (needs nan)
@@ -35,12 +44,12 @@
 * C00028: Blockchain audit log and validation with collaborative decryption to post comments (needs nan)
 * C00027: Create culture of civility (needs nan)
 * C00085: Demuting content (needs nan)
-* C00124: Don't feed the trolls (needs nan)
+* C00124: Don't feed the trolls (needs public,media)
 
 ### 77    T0039 - Bait legitimate influencers
 Name: key, dtype: object
 * C00093: Establish tailored code of conduct for individuals with many followers (needs nan)
-* C00114: Don't engage with payloads (needs nan)
+* C00114: Don't engage with payloads (needs public)
 
 ### 78    T0040 - Demand unsurmountable proof
 Name: key, dtype: object

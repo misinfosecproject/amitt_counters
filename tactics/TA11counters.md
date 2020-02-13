@@ -20,7 +20,7 @@
 * C00141: "Hey this story is old" popup when messaging with old URL (needs platform_algorithms)
 * C00142: "This has been disproved - do you want to forward it" (needs platform_algorithms)
 * C00144: Buy out troll farm employees / offer them jobs (needs nan)
-* C00143: (botnet) DMCA takedown requests to waste group time (needs nan)
+* C00143: (botnet) DMCA takedown requests to waste group time (needs public,elves)
 
 ## by technique
 

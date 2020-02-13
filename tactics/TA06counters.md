@@ -4,13 +4,16 @@
 
 
 ### D2 Deny
-* C00074: Identify identical content and mass deplatform (needs nan)
+* C00074: Identify identical content and mass deplatform (needs platform_admin,platform_admin:socialmedia)
 * C00070: Block access to platform. DDOS an attacker. (needs nan)
 * C00071: Block source of pollution (needs nan)
 * C00072: Content censorship in non-relevant domains e.g. Pinterest antivax (needs nan)
+* C00171: social media content take-downs (needs platform_admin:socialmedia)
+* C00172: social media page removal (needs platform_admin:socialmedia)
 * C00073: Educate on how to handle info pollution. Push out targeted education on why it's pollution (needs educators)
 * C00075: normalise language (needs nan)
 * C00076: Prohibit images in political discourse channels (needs nan)
+* C00202: Set data 'honeytraps' (needs nan)
 
 ### D3 Disrupt
 * C00082: Ground truthing as automated response to pollution (needs nan)
@@ -20,6 +23,7 @@
 * C00080: Create competing narrative (needs nan)
 * C00084: Steal their truths (needs nan)
 * C00077: Active defence: replay "develop people" (needs nan)
+* C00219: Add metadata to content - out of the control of the adversary (needs nan)
 
 ### D4 Degrade
 * C00087: Make more noise (needs nan)
@@ -69,6 +73,7 @@ Name: key, dtype: object
 
 ### 60    T0022 - Conspiracy narratives
 Name: key, dtype: object
+* C00074: Identify identical content and mass deplatform (needs platform_admin,platform_admin:socialmedia)
 * C00072: Content censorship in non-relevant domains e.g. Pinterest antivax (needs nan)
 * C00023: Promote civility as an identity that people will defend (needs nan)
 * C00024: Promote constructive narratives i.e. not polarising.  Pro-life, pro-choice, or pro-USA? (needs nan)
@@ -91,12 +96,16 @@ Name: key, dtype: object
 
 ### 63    T0025 - Leak altered documents
 Name: key, dtype: object
+* C00074: Identify identical content and mass deplatform (needs platform_admin,platform_admin:socialmedia)
 * C00012: Platform regulation (needs government:policymakers)
 * C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
 * C00036: Infiltrate the in-group to discredit leaders (divide) (needs nan)
+* C00202: Set data 'honeytraps' (needs nan)
+* C00210: Use encrypted apps for confidential communication (needs nan)
 
 ### 64    T0026 - Create fake research
 Name: key, dtype: object
+* C00074: Identify identical content and mass deplatform (needs platform_admin,platform_admin:socialmedia)
 * C00094: Force full disclosure on corporate sponsor of research (needs nan)
 * C00092: Establish a truth teller reputation score for individuals with many followers (needs nan)
 

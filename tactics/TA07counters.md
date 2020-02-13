@@ -1,22 +1,11 @@
-# Tactic TA07 Channel Selection counters
+# Tactic TA07 Channel selection counters
 
 ## by action
 
 
-### D2 Deny
-* C00097: Require use of verified identities to contribute to poll or comment (needs platform_algorithms)
-* C00098: Revocation of "verified" (needs platform_admin)
-* C00099: Strengthen verification methods (needs platform_algorithms)
-
 ### D3 Disrupt
-* C00100: Hashtag jacking (needs nan)
-
-### D4 Degrade
-* C00101: Create participant friction (needs platform_algorithms)
-* C00102: Make repeat voting harder (needs platform_admin)
-
-### D5 Deceive
-* C00103: Create a bot that engages / distract trolls (needs developers)
+* C00214: Create policy that makes social media police disinformation (needs government:policymakers)
+* C00215: Use fraud legislation to clean up social media (needs government:policymakers)
 
 ## by technique
 

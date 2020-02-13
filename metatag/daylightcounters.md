@@ -3,10 +3,18 @@
 ## by action
 
 
+### D1 detect
+* C00213: Warn social media companies about an ongoing campaign (e.g. antivax sites).  (needs public:anyone with datasets or data summaries)
+
 ### D2 Deny
 * C00113: Debunk and defuse a fake expert / credentials. Attack audience quality of fake expert (needs nan)
 * C00115: Expose actor and intentions (needs nan)
 * C00116: Provide proof of involvement (needs nan)
+* C00150: “calling them out” (needs nan)
+* C00152: “name and shame” (needs nan)
+
+### D2 deny
+* C00217: Registries alert when large batches of newsy URLs get registered together (needs platform_admin)
 
 ### D3 Disrupt
 * C00018: Promote constructive communication by shaming division-enablers (needs nan)
@@ -15,6 +23,15 @@
 * C00069: Mark clickbait visually (needs nan)
 * C00081: Discredit by pointing out the "noise" and informing public that "flooding" is a technique of disinformation campaigns; point out intended objective of "noise" (needs nan)
 * C00126: Social media amber alert (needs nan)
+* C00151: “fight in the light” (needs nan)
+* C00219: Add metadata to content - out of the control of the adversary (needs nan)
+
+### D4 Degrade
+* C00184: Media exposure (needs nan)
+* C00085: Demuting content (needs nan)
+
+### D6 Destroy
+* C00189: Ongoing analysis/monitoring of "flagged" profiles (needs nan)
 
 ### D7 Deter
 * C00048: Name and Shame (needs nan)

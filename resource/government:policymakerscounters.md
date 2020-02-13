@@ -12,3 +12,5 @@
 ### D3 Disrupt
 * C00060: Enhanced legal enforcement against for-profit follower/engagement factories (needs government:policymakers)
 * C00065: Ban political ads (needs government:policymakers)
+* C00214: Create policy that makes social media police disinformation (needs government:policymakers)
+* C00215: Use fraud legislation to clean up social media (needs government:policymakers)

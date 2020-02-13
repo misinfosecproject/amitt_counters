@@ -4,6 +4,7 @@
 
 
 ### D2 Deny
+* C00216: Use advertiser controls to stem flow of funds to bad actors (needs platform_admin:adtech)
 * C00063: Ban political microtargeting (needs government:policymakers)
 
 ### D3 Disrupt

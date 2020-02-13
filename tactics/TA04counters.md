@@ -1,29 +1,10 @@
-# Tactic TA04 Develop Networks counters
+# Tactic TA04 develop networks counters
 
 ## by action
 
 
 ### D2 Deny
-* C00056: Get off social media (needs nan)
-* C00055: Empower existing regulators to govern social media (needs government:policymakers,government,platform_admin)
-* C00049: Influence literacy training (needs educators)
-* C00050: Anti-elicitation training (needs educators)
-* C00051: Phishing prevention education etc (needs educators)
-* C00057: Privacy standards (needs nan)
-* C00059: Verification of project before posting (counters funding campaigns) (needs nan)
-* C00058: Report as violator (counters crowdfunding) (needs nan)
-
-### D3 Disrupt
-* C00061: Innoculating at language (needs nan)
-* C00060: Enhanced legal enforcement against for-profit follower/engagement factories (needs government:policymakers)
-
-### D4 Degrade
-* C00053: Delete old accounts / Remove unused social media accounts (needs platform_admin,platform_admin:socialmedia,public:account_owners)
-* C00054: Media literacy training.  (needs educators,libraries,schools,DHS,NGO,platform_outreach,media,community_groups,religious_organisations)
-* C00052: Infiltrate platforms (needs activists)
-
-### D6 Destroy
-* C00062: Free open library sources worldwide (needs nan)
+* C00152: “name and shame” (needs nan)
 
 ## by technique
 
@@ -40,6 +21,7 @@ Name: key, dtype: object
 
 ### 49    T0011 - Hijack legitimate account
 Name: key, dtype: object
+* C00043: Detect hijacked accounts and reallocate them  (needs platform_admin,activists,civil_society,money)
 * C00053: Delete old accounts / Remove unused social media accounts (needs platform_admin,platform_admin:socialmedia,public:account_owners)
 * C00133: Deplatform Account* (needs platform_admin)
 * C00135: Deplatform message groups and/or message boards (needs platform_admin)
